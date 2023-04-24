@@ -1,0 +1,80 @@
+{
+  "Anatomy": {
+    "AdG": "Gene",
+    "AeG": "Gene",
+    "AuG": "Gene",
+
+    "_DlA": "Disease"
+  },
+  "Compound": {
+    "CbG": "Gene",
+    "CcSE": "SideEffect",
+    "CdG": "Gene",
+    "CpD": "Disease",
+    "CrC": "Compound",
+    "CtD": "Disease",
+    "CuG": "Gene",
+    "CmC": "Compound",
+
+    "_PCiC": "PharmacologicClass",
+    "_CrC": "Compound",
+    "_CmC": "Compound"
+  },
+  "Disease": {
+    "DaG": "Gene",
+    "DdG": "Gene",
+    "DlA": "Anatomy",
+    "DpS": "Symptom",
+    "DrD": "Disease",
+    "DuG": "Gene",
+
+    "_CpD": "Compound",
+    "_CtD": "Compound",
+    "_DrD": "Disease"
+  },
+  "Gene": {
+    "GcG": "Gene",
+    "GiG": "Gene",
+    "GpBP": "BiologicalProcess",
+    "GpCC": "CellularComponent",
+    "GpMF": "MolecularFunction",
+    "GpPW": "Pathway",
+    "Gr>G": "Gene",
+
+    "_AdG": "Anatomy",
+    "_AeG": "Anatomy",
+    "_AuG": "Anatomy",
+    "_CbG": "Compound",
+    "_CdG": "Compound",
+    "_CuG": "Compound",
+    "_DaG": "Disease",
+    "_DdG": "Disease",
+    "_DuG": "Disease",
+    "_GcG": "Gene",
+    "_GiG": "Gene",
+    "_Gr>G": "Gene"
+  },
+  "PharmacologicClass": {
+    "PCiC": "Compound"
+  },
+
+  "SideEffect": {
+    "_CcSE": "Compound"
+  },
+  "Symptom": {
+    "_DpS": "Disease"
+  },
+  "BiologicalProcess": {
+    "_GpBP": "Gene"
+  },
+  "CellularComponent": {
+    "_GpCC": "Gene"
+  },
+  "MolecularFunction": {
+    "_GpMF": "Gene"
+  },
+  "Pathway": {
+    "_GpPW": "Gene"
+  }
+}
+
